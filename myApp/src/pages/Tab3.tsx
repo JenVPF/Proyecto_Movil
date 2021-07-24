@@ -1,24 +1,24 @@
-import {IonHeader, IonPage, IonTitle, IonToolbar, IonRow, IonCol, IonItem, IonLabel, IonInput, IonButton} from '@ionic/react';
-// import ExploreContainer from '../components/ExploreContainer';
+import {IonHeader, IonPage, IonTitle, IonToolbar, IonRow, IonCol, IonItem, IonLabel, IonInput, IonButton, IonImg} from '@ionic/react';
 import './Tab3.css';
+import './Tabs.css';
 
 const Tab3: React.FC = () => {
   return (
     <IonPage>
       <IonHeader>
         <IonToolbar>
-          <IonTitle>Login</IonTitle>
+          <IonTitle class="title">Inicio Sesion</IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonRow> 
         <IonCol> 
-          <IonItem> 
-            <IonLabel position = "floating"> Correo electrónico </IonLabel> 
-            <IonInput type = "email"></IonInput> 
+          <IonItem class="item"> 
+            {/* <IonLabel> Correo electrónico </IonLabel>  */}
+            <IonInput class="input" type = "email" placeholder="Correo"></IonInput> 
           </IonItem> 
-          <IonItem> 
-            <IonLabel position = "floating"> Contraseña </IonLabel> 
-            <IonInput type = "password"></IonInput> 
+          <IonItem class="item"> 
+            {/* <IonLabel> Contraseña </IonLabel>  */}
+            <IonInput class="input" type = "password" placeholder="Contraseña"></IonInput> 
           </IonItem> 
         </IonCol> 
       </IonRow>
