@@ -1,6 +1,7 @@
 # Proyecto_Movil
 
-App Movil para el ramo de CPyD
+App Movil para el ramo de Computacion paralela y distribuida. 
+App movil que consume un servicio Rest. 
 
 ### Dependencias
 - Instalacion de ionic
